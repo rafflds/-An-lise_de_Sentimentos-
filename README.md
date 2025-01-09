@@ -1,4 +1,4 @@
-# 🚀 Filme do Sonic 3 Análise de Sentimentos 
+# 🚀 Análise de Sentimentos do Filme do Sonic 3
 
 Este repositório documenta a exploração da análise de sentimentos utilizando o Azure AI Language Studio. Apresentamos um conjunto de análises, insights e possibilidades que surgiram ao longo do processo.
 
