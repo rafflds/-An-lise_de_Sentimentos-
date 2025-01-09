@@ -1,2 +1,2 @@
-# -An-lise_de_Sentimentos-
+# -Analise de Sentimentos-
 Análise de Sentimentos com Language Studio no Azure AI.
