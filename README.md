@@ -1,6 +1,42 @@
-# 🚀 Análise de Sentimentos da Crítica do Filme Sonic 3
+# 🚀 Análise de Sentimentos com Azure AI Language Studio
 
 Este repositório documenta a exploração da análise de sentimentos utilizando o Azure AI Language Studio. Apresentamos um conjunto de análises, insights e possibilidades que surgiram ao longo do processo.
+
+## ⚙️ Passo a Passo para Criar a Aplicação no Azure
+
+Antes de começar a análise, é necessário configurar o ambiente no Azure. Siga estes passos para criar sua aplicação:
+
+1.  **Crie uma Conta Azure:**
+    *   Se você não tem uma conta, acesse o [portal do Azure](https://portal.azure.com/) e crie uma conta gratuita.
+
+2.  **Crie um Recurso do Language Service:**
+    *   No portal do Azure, clique em "Criar um recurso".
+    *   Pesquise por "Language Service" e selecione o recurso.
+    *   Clique em "Criar".
+    *   Preencha os detalhes do recurso:
+        *   **Assinatura:** Selecione sua assinatura.
+        *   **Grupo de recursos:** Crie um novo grupo de recursos ou selecione um existente.
+        *   **Região:** Escolha a região mais próxima.
+        *   **Nome:** Dê um nome ao seu recurso (ex: `meu-language-service`).
+        *   **Tipo de preço:** Selecione um plano de preços. (O plano gratuito é suficiente para testes.)
+    *   Clique em "Revisar + criar" e depois em "Criar".
+
+3.  **Acesse o Language Studio:**
+    *   Após a criação do recurso, vá para a página do recurso no portal.
+    *   Na seção "Gerenciamento de recursos", clique em "Language Studio".
+
+4.  **Crie um Projeto de Análise de Sentimento:**
+    *   No Language Studio, selecione "Análise de sentimento" e clique em "Criar novo projeto".
+    *   Dê um nome ao seu projeto (ex: `analise-sentimento-projeto`).
+    *   Escolha o idioma padrão do seu projeto.
+    *   Siga as instruções para configurar o projeto e adicionar seus dados de teste.
+
+5.  **Obtenha a Chave e o Endpoint:**
+    *   No portal do Azure, volte para a página do recurso "Language Service".
+    *   Na seção "Gerenciamento de recursos", clique em "Chaves e Endpoint".
+    *   Copie a chave de acesso e o endpoint para usar em suas aplicações.
+
+Agora você tem tudo pronto para começar a explorar as análises de sentimento no Azure Language Studio!
 
 ## 🖼️ Análises e Processos Detalhados
 
@@ -84,4 +120,11 @@ Este repositório documenta a exploração da análise de sentimentos utilizando
 
 ---
 
+## 💡 Próximos Passos
 
+- Refinar modelos para tratar nuances de linguagem.
+- Expandir a análise para outros conjuntos de dados.
+- Aprofundar a integração com outras ferramentas e plataformas.
+- Explorar o uso da análise de sentimento para tomada de decisões.
+
+Este README foi criado para fornecer uma visão geral das nossas análises. Esperamos que seja útil para outros interessados na área.
