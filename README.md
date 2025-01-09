@@ -127,4 +127,3 @@ Agora você tem tudo pronto para começar a explorar as análises de sentimento 
 - Aprofundar a integração com outras ferramentas e plataformas.
 - Explorar o uso da análise de sentimento para tomada de decisões.
 
-Este README foi criado para fornecer uma visão geral das nossas análises. Esperamos que seja útil para outros interessados na área.
